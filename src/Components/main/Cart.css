@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+.Itemmain{
+    border: 1px solid red;
+    width: 100%;
+    height: 300px;
+}
+
+.EmptyMain{
+   display: grid;
+   grid-template-rows:50% 50% ;
+   color: black;
+   font-size: 65px;
+   width: 100%;
+   height: 700px;
+   background-color: #b2bec3;
+
+}
+
+.EmptyMainTop{
+    display: flex;
+
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.EmptyMainDown{
+  
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.f{
+    background-color: #f9ca24;
+}
+.NoteEmpty
+{
+   background-color: #dcdde1; 
+   width: 100%;
+   height: 70px;
+   font-size: 24px;
+   display: grid;
+   font-family: 'Lato', sans-serif;
+   grid-template-columns: 8% 12% 20% 20% 10% 20% 10%;
+}
+
+.NoteEmptyContent{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.aaaa{
+    background-color: #dfe6e9;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    height: 200px;
+}
+
+.div{
+    width: 100px;
+    height: 100px;
+    background-color: yellowgreen;
+}
+
+.cartbutton{
+    width: 75px;
+    height: 30px;
+    background-color: #e84393;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.cartbutton:hover{
+    cursor:pointer;
+    width: 80px;
+}
+
+.bottom{
+    background-color: #f1f2f6;
+    width: 100%;
+    height: 100px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.checkoutbutton{
+    background-color:#FC427B;
+    border-radius: 10px;
+    width:400px;
+    height:50px;
+    font-size: 20px;
+    color: black;
+}
+
+.checkoutbutton:hover{
+    cursor: pointer;
+    width:410px;
+}

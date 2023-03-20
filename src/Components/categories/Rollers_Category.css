@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+.PaintRollersMain{
+    width: 100%;
+    height: 800px;
+    background-image: url('../../../public/images/s.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.PaintRollersMainRigth{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.PaintCat{
+    background-color: #b2bec3;
+    margin: 5px 5px 5px 5px;
+}
+
+.PaintRollers_com{
+    background-color:#dfe6e9;
+    display: grid;
+    grid-template-rows: 12% 65% 11% 12%;
+    margin: 5px 5px 5px 5px;
+}
+
+.PaintRollers_comtop{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-family: 'Lato', sans-serif;
+}
+
+.PaintRollers_commiddle{
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.PaintRollers_comdown{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.PaintRollers_comdowndown{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.addtocartrollers{
+    width:100px;
+    height: 30px;
+    background-color: #e74c3c;
+    color: aliceblue;
+    border-radius: 10px;
+}
+
+.addtocartrollers{
+    width:120px;
+    height:35px;
+    background-color: #e74c3c;
+    color: aliceblue;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.addtocartrollers:hover{
+    cursor: pointer;
+    width: 125px;
+    background-color: #e84393;
+    font-style: Sans-serif;
+    color: #ecf0f1;
+}
